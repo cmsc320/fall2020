@@ -4,7 +4,7 @@ Posted: November 6, 2020
 
 Last Updated: November 6, 2020
 
-Due: November 23, 2020
+Due: ~~November 23, 2020~~ December 3, 2020
 
 ## Part 1: Regression analysis of Gapminder data
 
@@ -47,11 +47,11 @@ lggplot(aes(x='year', y='lifeExp'), data=data) +\
 
 <img src="figs/violin.png" height="242">
 
-This type of plot is called a <em>violin plot</em>, and it displays the distribution of the variable in the y-axis for each value of the variable in the x-axis.
+This type of plot is called a <em>violin plot</em>, and it displays the distribution of the variable in the y-axis for each value of the variable in the x-axis.  (It is okay to use other plotting libraries and tools to create this plot, and others throughout the assignment.)
 
 **Question 2**: <em>How would you describe the distribution of life expectancy across countries for individual years? Is it skewed, or not? Unimodal or not? Symmetric around it’s center?</em>
 
-Based on this plot, consider the following questions.
+Based on the Violin plot you made, consider the following questions.
 
 **Question 3**: <em>Suppose I fit a linear regression model of life expectancy vs. year (treating it as a continuous variable), and test for a relationship between year and life expectancy, will you reject the null hypothesis of no relationship? (do this without fitting the model yet. I am testing your intuition.)</em>
 
